@@ -1,0 +1,273 @@
+@boja_1: black;
+@boja_2: white;
+@boja_3: grey;
+@font_1: 'Josefin Sans', sans-serif;
+@boja_4: rgba(255,255,255,0.5);
+@boja_5: #c2c2c2;
+@boja_6: rgba(170,170,170,0.8);
+
+@import "https://fonts.googleapis.com/css?family=Josefin+Sans";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: @font_1;
+}
+#zaglavlje {
+	width: 100%;
+	height: 500px;
+	background-image: url('../images/znak.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#sredina {
+	width: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: @boja_5;
+	padding: 100px 0px;
+}
+#header {
+	width: 65%;
+	background-color: @boja_4;
+	margin: auto;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #5f6266;
+	nav {
+		ul {
+			list-style-type: none;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			a {
+				text-decoration: none;
+				color: @boja_1;
+				font-size: 1.3em;
+			}
+			li {
+				padding: 15px;
+				a {
+					&:hover {
+						color: @boja_2;
+					}
+				}
+			}
+		}
+	}
+}
+#logo {
+	width: 20%;
+	background-repeat: no-repeat;
+	background-image: url('../images/ico.png');
+	margin: auto;
+}
+#autor {
+	width: 30%;
+	border-radius: 10px;
+	background-color: @boja_5;
+	.slika {
+		background-image: url('../images/autor.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+#klio {
+	width: 30%;
+	border-radius: 10px;
+	background-color: @boja_5;
+	.slika {
+		background-image: url('../images/klio.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+#megan {
+	width: 30%;
+	border-radius: 10px;
+	background-color: @boja_5;
+	.slika {
+		background-image: url('../images/megan.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+.tekst {
+	width: 100%;
+	background-color: @boja_6;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #5f6266;
+	text-align: center;
+	&:hover {
+		transform: scale(1.2, 1.2);
+		transition: 1s;
+	}
+	a {
+		text-decoration: none;
+		text-align: center;
+		padding: 10px;
+		color: @boja_1;
+	}
+}
+#futer {
+	width: inherit;
+	background-color: @boja_1;
+	color: @boja_2;
+	text-align: center;
+	padding: 45px;
+	nav {
+		ul {
+			list-style-type: none;
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			margin-top: 30px;
+			font-size: 1em;
+			a {
+				text-decoration: none;
+				color: @boja_2;
+				margin-right: 25px;
+				font-size: 1em;
+			}
+			li {
+				a {
+					&:hover {
+						color: @boja_3;
+					}
+				}
+			}
+		}
+	}
+}
+.slika {
+	width: 100%;
+	height: 250px;
+	background-color: @boja_2;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #5f6266;
+}
+#site {
+	width: 20%;
+	color: @boja_2;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	a {
+		text-decoration: none;
+		color: @boja_2;
+		&:hover {
+			color: @boja_3;
+		}
+	}
+}
+#sredina3 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: @boja_5;
+	padding: 50px 0px;
+}
+#mojTekst {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	font-size: 1em;
+}
+#fotka {
+	width: 35%;
+	border-radius: 10px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+#sredina1 {
+	width: inherit;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: @boja_5;
+	.slike1 {
+		&:hover {
+			transform: scale(1.1, 1.1);
+			transition: 1.5s;
+		}
+	}
+}
+.slike1 {
+	width: 30%;
+	height: 250px;
+	padding-top: 25px;
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+.slike2 {
+	width: 30%;
+	height: 250px;
+	border-radius: 10px;
+	margin: 25px;
+}
+#sredina2 {
+	width: inherit;
+	background-color: @boja_5;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: @boja_5;
+	text-align: center;
+	padding-top: 40px;
+}
+.onama {
+	width: 80%;
+}
+#sredina5 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: @boja_5;
+}
+#forma {
+	margin-top: 30px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+	h1 {
+		margin-bottom: 10px;
+	}
+}
+.text-box {
+	width: 150%;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border-color: @boja_1;
+	&:focus {
+		border-color: @boja_2;
+	}
+}
+.lista {
+	width: 150%;
+	margin-bottom: 15px;
+	border-color: @boja_1;
+	border-radius: 5px;
+}
+.dugme {
+	width: 80%;
+	border-radius: 5px;
+	border-color: @boja_1;
+	box-shadow: 2px 2px 2px #5f6266;
+	margin-top: 15px;
+	margin-left: 50px;
+	&:hover {
+		background-color: @boja_2;
+		cursor: grab;
+	}
+}
+.dugme1 {
+	margin-bottom: 5px;
+}
+.aktivanlink {
+	border-top:3px solid @boja_1;
+}

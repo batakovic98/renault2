@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+	color: white;
+}
+
+#zaglavlje, #sredina{
+	width:100%;
+}
+
+#zaglavlje{
+	height:500px;
+	background-image:url('../images/znak.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#header{
+	width:65%;
+	background-color:rgba(255,255,255,0.5);
+	margin:auto;
+	border-radius:5px;
+	box-shadow:2px 2px 2px #5f6266;
+}
+
+#header nav ul{
+	list-style-type:none;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+}
+
+#header nav ul a{
+	text-decoration:none;
+	color:black;
+	font-size:1.3em;
+}
+
+#header nav ul li{
+	padding:15px;
+}
+
+#header nav ul li a:hover{
+	color:white;
+}
+
+
+#logo{
+	width:20%;
+	background-repeat:no-repeat;
+	background-image:url('../images/ico.png');
+	margin:auto;
+}
+
+#sredina{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	background-color:#c2c2c2;
+	padding:100px 0px;
+}
+
+#autor{
+	width:30%;
+		
+}
+
+#klio{
+	width:30%;
+	
+}
+
+#megan{
+	width:30%;
+	
+}
+
+#autor, #klio, #megan{
+	border-radius:10px;
+	background-color:#c2c2c2;
+}
+
+.tekst{
+	width:100%;
+	background-color:rgba(170,170,170,0.8);
+	border-radius:5px 5px 0px 0px;
+	box-shadow:2px 2px 2px #5f6266;
+	text-align:center;
+}
+/*
+.tekst:hover{
+	transform:scale(1.2, 1.2);
+	transition:1s;
+}*/
+
+.tekst a{
+	text-decoration:none;
+	text-align:center;
+	padding:10px;
+	color:black;
+}
+
+#futer{
+	width:inherit;
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:25px;
+	
+}
+
+#futer nav ul{
+	list-style-type:none;
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-end;
+	margin-top:30px;
+	font-size:1em;
+}
+
+#futer nav ul li{
+	padding: 5px;
+}
+
+#futer nav ul a{
+	text-decoration:none;
+	color:white;
+	margin-right:25px;
+	font-size:1em;
+}
+
+#futer nav ul li a:hover{
+	color:grey;
+}
+
+.slika11{
+	width:100%;
+	height:250px;
+	background-color:white;
+	border-radius:0px 0px 5px 5px;
+	box-shadow:2px 2px 2px #5f6266;
+}
+#autor .slika11{
+	background-image:url('../images/autor.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+#megan .slika11{
+	background-image:url('../images/megan.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+#klio .slika11{
+	background-image:url('../images/clio1.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+#site{
+	width:20%;
+	color:white;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+#site a{
+	text-decoration:none;
+	color:white;
+}
+
+#site a:hover{
+	color:grey;
+}
+#sredina3{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	background-color:#c2c2c2;
+	padding:50px 0px;
+}
+#mojTekst{
+	width:80%;
+	margin:auto;
+	text-align:center;
+	font-size:1em;
+}
+
+#fotka{
+	width:35%;
+
+	border-radius:10px;
+	margin:auto;
+	margin-bottom:20px;
+}
+
+.slika{
+	width: 30%;
+	padding-top: 5%;
+}
+
+#sredina1 {
+	width:inherit;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	justify-content:space-around;
+	background-color:#c2c2c2;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.slike1{
+	width:30%;
+	height:250px;
+	padding-top:25px;
+	border-radius:10px;
+	margin-bottom:25px;
+	
+}
+
+.slike2{
+	width:30%;
+	height:250px;
+	border-radius:10px;
+	margin:25px;
+}
+
+
+#sredina2{
+	width:inherit;
+	background-color:#c2c2c2;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+#sredina2{
+	background-color:#c2c2c2;
+	text-align:center;
+	padding-top:40px;
+	
+}
+
+.onama{
+	width:80%;
+}
+
+#sredina5{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	background-color:#c2c2c2;
+	
+}
+
+#sredinaf{
+	background-color:#c2c2c2;
+}
+
+#sredina1 h1{
+	font-size: 45px;
+}
+
+#formaDiv{
+	margin: 0px auto;
+	width: 50%;
+	text-align: center;
+	padding: 50px;
+}
+#formaDiv h1{
+	font-size: 45px;
+}
+#forma{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#forma label{
+	font-size: 24px;
+	margin-top:10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.tekstPolja{
+	height: 30px;
+	margin-top: 20px;
+	border-radius: 5px;
+	text-align: center;
+	
+	font-size: 15px;
+}
+.dugme{
+	width:80%;
+	border-radius:5px;
+	border-color:black;
+	box-shadow:2px 2px 2px #5f6266;
+	margin-top:15px;
+	margin-left:50px;
+}
+
+#vozilo input{
+	margin: auto;
+	margin-bottom: 5px;
+}
+.taster{
+	width: 30%;
+	height: 40px;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#ddlBrojLjudi{
+	height: 30px;
+	border-radius: 5px;
+	
+}
+
+.aktivanlink {
+	border-bottom:3px solid black;
+}
+
+@media screen and (max-width: 920px){
+
+#header{
+	width:100%; 
+}
+.slika{
+	width: 30%;
+}
+#sredina1 img{
+	width:40%;
+	
+}
+#sredina2 img{
+	width:40%;
+	
+}
+
+}
+
+@media screen and (max-width: 720px){
+
+#sredina{
+	display:flex;
+	flex-direction:column;
+	margin:auto;
+	padding:10px 0px;
+}
+#autor, #klio, #megan{
+	width:60%;
+	margin:auto;
+	padding:10px;
+}
+#futer{
+	display:flex;
+	flex-direction:column;
+}
+#futer nav{
+	padding:15px 0px;
+	margin:auto;
+}
+#site{
+	padding:15px 0px;
+	margin:auto;
+}
+#site a{
+	padding-left:10px;
+}
+.slika{
+	width: 45%;
+}
+#sredina1 img{
+	width:45%;
+}
+#sredina2 img{
+	width:60%;
+	
+}
+#fotka{
+	width:50%;
+}
+}
+
+@media screen and (max-width: 540px){
+
+#header nav ul{
+	display:flex;
+	flex-direction:column;
+	margin:auto;
+}
+#header nav ul li{
+	margin:auto;
+}
+#futer nav ul{
+	display:flex;
+	flex-direction:column;
+	margin:auto;
+}
+#futer nav ul li{
+	padding-top:10px;
+}
+#site a{
+	padding-left:10px;
+}
+.slika{
+	width: 70%;
+}
+#sredina1 img{
+	width:85%;
+}
+#sredina2 img{
+	width:70%;
+	
+}
+#autor, #klio, #megan{
+	width:80%;
+}
+}
+#ispisGresaka{
+	color: red;
+}
+#rezPoruka ul li{
+	list-style-type: none;
+	color: red;
+}
+#rezPoruka ul{
+	margin-top: 10px;
+}
+.slike{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.slika img{
+	width: 100%;
+	height: 250px;
+	border-radius: 3px;
+}
+#cenUl{
+	position: absolute;
+	background-color:rgba(255,255,255,0.5);
+	margin:auto;
+	border-radius:5px;
+	box-shadow:2px 2px 2px #5f6266;
+}
+
+#sredina11{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	background-color:#c2c2c2;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+#tabelaNaslov{
+	margin: 0 auto;
+	padding-bottom: 5%;
+	font-size: 1.5em;
+}
+
+table {
+	margin: 0 auto;
+	width: 70%;
+}
+
+	table td {
+		padding: 0.75em 0.75em;
+	}
+
+	table th {
+		font-size: 1.3em;
+		font-weight: 600;
+		padding: 0 0.75em 0.75em 0.75em;
+		text-align: left;
+	}
+
+
+		table.tabela tbody tr td {
+			border: solid 2px;
+			border-left-width: 0;
+			border-top-width: 0;
+		}
+
+			table.tabela tbody tr td:first-child {
+				border-left-width: 2px;
+			}
+
+		table.tabela tbody tr:first-child td {
+			border-top-width: 2px;
+		}
+
+table th {
+	color: black;
+}
+
+table.tabela tbody tr td {
+	border-color: rgba(144, 144, 144, 0.25);
+}
+
+
+#scrollToTop {
+	padding: 5px 19px;
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	color: #fff;
+	font-size: 45px;
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	background-color: rgba(255, 255, 255, 0.15);
+	color: #fff;
+	z-index: 990;
+	border-radius: 25px;
+
+}
+#scrollToTop:hover {
+	color: rgba(255, 255, 255, 0.25);
+	background: none;
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.25);
+}
+
+#onamaSlike{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color:#c2c2c2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
